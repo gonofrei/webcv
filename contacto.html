@@ -1,0 +1,200 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+                animation: fadeInAnimation ease 1s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
+            }
+              
+            @keyframes fadeInAnimation {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+    
+            </style>
+    </head>
+
+    <body>
+
+      
+
+       
+
+    <div id="my"></div>
+    <table style="margin-bottom: -0.7%;" align=center>
+        <tr>
+            <td>
+                <form method="get" action="index.html">
+
+                <div class="botonmenu"><li class=" even">
+                    <button type=submit class="botonmenu2"><a href="index.html">&nbsp;INICIO&nbsp;</a></     button><li class=" odd">
+            
+                </div>
+                </form>
+            </td>
+
+            <td>
+                <form method="get" action="cv.html">
+                <div class="botonmenu"><li class=" even">
+                    <button type=menu class="botonmenu2"><a align=center href="cv.html">&nbsp;&nbsp; CV &nbsp;&nbsp;</a></     button><li class=" odd">
+            
+                </div>
+            </form>
+
+            </td>
+
+            <td>
+                <form method="get" action="contacto.html">
+                <div class="botonmenu"><li class=" even">
+                    <button type=menu class="botonmenu2"><a href="contacto.html">CONTACTO</a></     button><li class=" odd">
+            
+                </div>
+                </form>
+            </td>
+
+        </tr>
+    </table>
+    &nbsp;
+
+
+
+
+
+
+
+
+        <div 
+        style=
+        "width: 99.30%;
+        height:40.5%;
+        border:5px solid 
+        white;
+        display: inline-block;
+        border-radius: 20px;
+        margin-top: -22px;
+        ">
+         
+        
+         <div class=contenedor>
+            <img class="imagen_transparencia" src=foto.jpg>
+            <div class="texto-encima"></div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="centrado">Contacto</div>
+            
+        </div>     
+        
+       
+        
+        
+
+
+
+
+        </div>
+        
+        
+
+        <div 
+        style=
+        "width: 99.30%;
+        height:48.5%;
+        border:5px solid 
+        white;
+        border-radius: 20px;
+        display: inline-block;
+        background-color: rgba(4, 17, 59, 0.733) ;" >
+
+
+                <div class=contactoTabla>
+
+                    <table class=contactoTabla>
+                        <form name="frmContacto" method="post" action="contacto.php">
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td >
+                                                Nombre:
+                                    <input size=10vw autofocus maxlength=25 type="text" name="txtNombre" id="txtNombre">
+                                    
+                                    &nbsp;
+                            </td>
+
+
+                            <td> 
+                                                Apellidos:
+                                    <input size=10vw maxlength=25 type="text" name="txtApellidos" id="txtApellidos">
+                                    
+                                    &nbsp;
+                                    
+                            </td>
+
+
+                            <td>
+                                        Teléfono:
+                                        <input size=10vw maxlength=15 type="text" name="txtTelefono" id="txtTelefono"> 
+                            </td>
+
+                            <td>
+                                &nbsp;
+                                Asunto:
+                                <select size=1vw name="Desplegable">
+                                    <option value="null">(Seleccione uno)</option>
+                                    <option value="OfertaDeTrabajo">Oferta de trabajo</option>
+                                    <option value="Proyectos">Proyectos</option>
+                                    <option value="Otros">Otros</option>
+                                
+                                </select>
+                            </td>
+                            <td>&nbsp;</td>
+
+                        </tr>
+
+                    </table>
+                    <br>
+                    <table class=contactoTabla>
+                        
+                        <tr>
+                            <td>
+
+                                <textarea maxlength=500 placeholder="Escriba aquí su mensaje (500 caracteres máximo)" cols="100vw" rows="6vw" name="txtTexto" id="txtTexto"></textarea> 
+                            
+                            </td>
+                        </tr>
+
+                    </table>
+                
+
+                    <table class=contactoTabla>
+                        
+                        <tr>
+                            <td>
+                                    <div class="botonenviar"></div>
+                                    <button type="submit" name="Submit" id="Submit" value="Submit" class="botonenviar2"><a align=right>&nbsp;&nbsp; ENVIAR &nbsp;&nbsp;</a></button>
+
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+    
+                </div>
+
+
+        </div>
+
+
+    
+
+
+
+
+        </body>
+    
+</html>
